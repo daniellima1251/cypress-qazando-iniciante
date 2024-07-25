@@ -23,7 +23,7 @@ jobs:
       - name: Instalando dependencias
         run: npm install      
 
-    #execução e config do projeto >
+    #execução e config do proje >
       - name: Run Testes
         uses: cypress-io/github-action@v5
         with: 
