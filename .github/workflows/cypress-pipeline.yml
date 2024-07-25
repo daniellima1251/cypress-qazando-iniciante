@@ -21,7 +21,7 @@ jobs:
     #execução e config do projeto >
       - name: Run Testes
         uses: cypress-io/github-action@v5
-          with: 
+        with: 
             record: true
-          env: 
+        env: 
             CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}

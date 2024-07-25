@@ -84,6 +84,7 @@ export default {
                 expect(element.text()).eq(`Bem-vindo ${nome}`)
             })
         cy.screenshot()
+        cy.screenshot()
 
 
     },
