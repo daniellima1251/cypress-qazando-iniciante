@@ -18,6 +18,11 @@ jobs:
     #clone do projeto >
       - name: Checkout/Clone do projeto
         uses: actions/checkout@v3
+
+    #Instalar dependencias do projeto
+      - name: Instalando dependencias
+        run: npm install      
+
     #execução e config do projeto >
       - name: Run Testes
         uses: cypress-io/github-action@v5
